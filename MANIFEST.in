@@ -1,0 +1,9 @@
+include README.md
+include LICENSE
+include requirements.txt
+include data/*
+recursive-include shotux *.py
+recursive-exclude shotux __pycache__
+recursive-exclude shotux *.pyc
+global-exclude *.pyc
+global-exclude __pycache__

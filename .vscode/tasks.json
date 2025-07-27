@@ -1,0 +1,59 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Shotux GUI",
+			"type": "shell",
+			"command": "${workspaceFolder}/.venv/bin/shotux-gui",
+			"group": "build",
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "new"
+			},
+			"problemMatcher": []
+		},
+		{
+			"label": "Setup Shotux",
+			"type": "shell",
+			"command": "./setup.sh",
+			"group": "build",
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": true,
+				"panel": "new"
+			},
+			"problemMatcher": []
+		},
+		{
+			"label": "Test CLI",
+			"type": "shell",
+			"command": "/home/lofn/apps/Shotux/.venv/bin/python",
+			"args": ["shotux_cli.py", "--help"],
+			"group": "test",
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "new"
+			},
+			"problemMatcher": []
+		},
+		{
+			"label": "Install Dependencies",
+			"type": "shell",
+			"command": "/home/lofn/apps/Shotux/.venv/bin/python",
+			"args": ["-m", "pip", "install", "-r", "requirements.txt"],
+			"group": "build",
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "new"
+			},
+			"problemMatcher": []
+		}
+	]
+}

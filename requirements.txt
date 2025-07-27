@@ -1,0 +1,4 @@
+# Shotux Screenshot Tool for Linux
+
+Pillow>=10.0.0
+setuptools>=45.0.0

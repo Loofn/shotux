@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Shotux Screenshot Tool
+GenericName=Screenshot Tool
+Comment=Take screenshots with ease on Linux
+Exec=shotux-gui
+Icon=shotux
+Terminal=false
+Type=Application
+Categories=Graphics;Photography;Utility;
+Keywords=screenshot;capture;image;screen;
+StartupNotify=true
+MimeType=
