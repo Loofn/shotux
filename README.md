@@ -54,7 +54,7 @@ pip3 install -r requirements.txt
 The easiest way to install Shotux:
 
 ```bash
-git clone https://github.com/lofn/shotux.git
+git clone https://github.com/Loofn/shotux.git
 cd shotux
 ./install.sh
 ```
